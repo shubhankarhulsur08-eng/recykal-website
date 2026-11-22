@@ -1,0 +1,29 @@
+[2026-11-21 22:42:48] INFO  WEBrick 1.9.1
+[2026-11-21 22:42:48] INFO  ruby 2.6.10 (2022-04-12) [universal.arm64e-darwin25]
+[2026-11-21 22:42:48] INFO  WEBrick::HTTPServer#start: pid=49079 port=8777
+::1 - - [21/Nov/2026:22:42:50 IST] "GET /index.html HTTP/1.1" 200 7626
+- -> /index.html
+::1 - - [21/Nov/2026:22:42:51 IST] "GET /index.html HTTP/1.1" 200 7626
+- -> /index.html
+::1 - - [21/Nov/2026:22:42:51 IST] "GET /styles.css HTTP/1.1" 200 9312
+http://localhost:8777/index.html -> /styles.css
+::1 - - [21/Nov/2026:22:42:51 IST] "GET /script.js HTTP/1.1" 200 1921
+http://localhost:8777/index.html -> /script.js
+[2026-11-21 22:42:51] ERROR '/favicon.ico' not found.
+::1 - - [21/Nov/2026:22:42:51 IST] "GET /favicon.ico HTTP/1.1" 404 282
+- -> /favicon.ico
+[2026-11-21 22:43:41] ERROR '/favicon.ico' not found.
+::1 - - [21/Nov/2026:22:43:41 IST] "GET /favicon.ico HTTP/1.1" 404 282
+- -> /favicon.ico
+[2026-11-21 22:43:44] ERROR '/favicon.ico' not found.
+::1 - - [21/Nov/2026:22:43:44 IST] "GET /favicon.ico HTTP/1.1" 404 282
+- -> /favicon.ico
+::1 - - [21/Nov/2026:22:45:11 IST] "GET /index.html HTTP/1.1" 304 0
+- -> /index.html
+::1 - - [21/Nov/2026:22:45:11 IST] "GET /styles.css HTTP/1.1" 200 9495
+::1 - - [21/Nov/2026:22:45:11 IST] "GET /script.js HTTP/1.1" 304 0
+http://localhost:8777/index.html -> /styles.css
+http://localhost:8777/index.html -> /script.js
+[2026-11-21 22:45:11] ERROR '/favicon.ico' not found.
+::1 - - [21/Nov/2026:22:45:11 IST] "GET /favicon.ico HTTP/1.1" 404 282
+- -> /favicon.ico
